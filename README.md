@@ -12,7 +12,7 @@
 A logical CLI-based **expense** tracker with **predictive** savings insights — built to help you control today and forecast future savings.    
 Utilizes the logic of savings prediction to give **current-day** insights on month-end savings and other **useful** data.
 
-> **Bonus:** Check out the [**Predicta Expense Web**](https://tecnolgd.github.io/Predicta-Expense-Web) static prototype.
+> **Bonus:** Check out the [**Predicta Expense Web**](https://tecnolgd.github.io/PredictaExpense-Web) static prototype.
  
 ## Features 
 
