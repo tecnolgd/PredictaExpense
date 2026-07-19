@@ -1,4 +1,4 @@
-<h1 align = "center" style = "font-family: Roboto;">PREDICTA EXPENSE</h1>
+<h1 align = "center" style = "font-family: Roboto;">Predicta Expense</h1>
 
 <div align = "center">
 <a href = "LICENSE.md"><img src = "https://img.shields.io/github/license/tecnolgd/PredictaExpense-cpp?color=1a1a1a&style=flat-square" alt = "License: MIT"></a>
