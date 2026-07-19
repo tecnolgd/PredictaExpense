@@ -99,9 +99,5 @@ Utilizes the logic of savings prediction to give **current-day** insights on mon
 * [EXIT](output_img/exit.png)
  
 
-## Value this repo ?
-*  If this repository added value to your learning or dev flow ,consider dropping a ⭐or hitting ***fork***.  
-* Open for recieving feedback and knowledge exchange.
- 
-### Author     
- ***tecnolgd***
+---
+Developed by **tecnolgd** · Archived learning artifact.
