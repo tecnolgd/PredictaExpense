@@ -2,9 +2,9 @@
 
 <div align = "center">
 <a href = "LICENSE.md"><img src = "https://img.shields.io/github/license/tecnolgd/PredictaExpense-cpp?color=1a1a1a&style=flat-square" alt = "License: MIT"></a>
-<img src = "https://img.shields.io/badge/tools-Open_Source-1a1a1a?style=flat-square">
-<img src = "https://img.shields.io/badge/interface-CLI-1a1a1a?style=flat-square">
-<img src = "https://img.shields.io/badge/status-stable-1a1a1a?style=flat-square" >
+<img src = "https://img.shields.io/badge/tools-Open_Source-1a1a1a?style=flat-square" alt = "Tools: Open Source">
+<img src = "https://img.shields.io/badge/interface-CLI-1a1a1a?style=flat-square" alt = "Interface: CLI">
+<img src = "https://img.shields.io/badge/status-Archived-1a1a1a?style=flat-square" alt = "Status: Archived" >
 
 </div>   
 <hr>    
