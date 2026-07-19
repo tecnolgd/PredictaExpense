@@ -44,8 +44,10 @@ Utilizes the logic of savings prediction to give **current-day** insights on mon
  4) The *All-time history* can be viewed anytime.
  5) Select the "*WARNINGS*" option from the menu and view current day warnings based on history of expense logging.
  6) The *Insights and Strategies* can be viewed anytime and useful data can be interpreted.
- 7) The user can *EXIT* the application anytime once a particular function is computed.  
- *(Note: The files to store expenses and counter logs will be **automatically** created when the application is run and the fuctions concerning them are encountered.)*
+ 7) The user can *EXIT* the application anytime once a particular function is computed.
+
+ > [!NOTE]      
+ > The files to store expenses and counter logs will be **automatically** created when the application is run and the fuctions concerning them are encountered
  
 ## How to RUN ?     
  
