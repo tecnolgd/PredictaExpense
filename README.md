@@ -1,15 +1,21 @@
-![MIT License](https://img.shields.io/github/license/tecnolgd/PredictaExpense-cpp.svg)
-![Static Badge](https://img.shields.io/badge/tools-Open_Source-blue)
-![Static Badge](https://img.shields.io/badge/interface-CLI-white)
-![Static Badge](https://img.shields.io/badge/version-v1.1-red)
-![Travis (.com)](https://img.shields.io/travis/com/tecnolgd/Predicta-Expense-cpp)
+<h1 align = "center" style = "font-family: Roboto;">PREDICTA EXPENSE</h1>
 
-# PREDICTA EXPENSE💰🔮
-### A logical CLI-based **expense** tracker with **predictive** savings insights — built to help you control today and forecast future savings.    
-### Utilizes the logic of savings prediction to give **current-day** insights on month-end savings and other **useful** data.
-**Bonus:** Check out the [**Predicta Expense Web**](https://tecnolgd.github.io/Predicta-Expense-Web) static prototype
+<div align = "center">
+<a href = "LICENSE.md"><img src = "https://img.shields.io/github/license/tecnolgd/PredictaExpense-cpp?color=1a1a1a&style=flat-square" alt = "License: MIT"></a>
+<img src = "https://img.shields.io/badge/tools-Open_Source-1a1a1a?style=flat-square">
+<img src = "https://img.shields.io/badge/interface-CLI-1a1a1a?style=flat-square">
+<img src = "https://img.shields.io/badge/status-stable-1a1a1a?style=flat-square" >
+
+</div>   
+<hr>    
+
+A logical CLI-based **expense** tracker with **predictive** savings insights — built to help you control today and forecast future savings.    
+Utilizes the logic of savings prediction to give **current-day** insights on month-end savings and other **useful** data.
+
+> **Bonus:** Check out the [**Predicta Expense Web**](https://tecnolgd.github.io/Predicta-Expense-Web) static prototype.
  
- ## Features ⚙️
+## Features 
+
  * Track daily expenses with ease.
  * Predict savings based on user spending patterns w.r.t monthly income/budget.
  * Display weekly expense log & all-time expense log.
@@ -17,19 +23,21 @@
  * Multifile modular design (C++ project structure).
  * Fast, menu-driven interface for smooth navigation.
  
- ## Tech stack 🚀🚀
+## Tech stack
+
  * Language: **C++**
  * Paradigm: **Modular** programming with file separation.
  * Core concepts: File handling, menu systems, predictive logic, conditions and iterations.( Soft pointer concepts ).
  * Interface: **CLI**(command-line interface).
  
- ## Novel concepts practiced 🆕
+## Novel concepts practiced
  * Vectors
  * Pointers (pass by reference/address)
  * File handling
  * Multi-file compilation
  
- ## How it works ❓
+## How it works
+
  1) Enter monthly budget/income **once** at the start of the application.
  2) Select the "*Add EXPENSE*" option and enter expenses with respective costs.
  3) The *Weekly report* can be viewed only when 7 days of expense logging is done.
@@ -39,17 +47,19 @@
  7) The user can *EXIT* the application anytime once a particular function is computed.  
  *(Note: The files to store expenses and counter logs will be **automatically** created when the application is run and the fuctions concerning them are encountered.)*
  
- ## How to RUN ?🔛
- 1) Clone this repo.
-```bash
-git clone https://github.com/tecnolgd/PredictaExpense-cpp.git
-```
-```bash
-cd PredictaExpense  
-```
+## How to RUN ?     
+ 
+ 1. Clone this repo.
+    ```bash
+    git clone https://github.com/tecnolgd/PredictaExpense-cpp.git
+    ```
+    ```bash
+    cd PredictaExpense  
+    ```
       
- 2) Run with  
-    * ### Makefile (*Recommended*)
+ 2. Run with  
+    * **Makefile** (*Recommended*)
+
         1. Open terminal in the **Predicta** folder. 
         2. Run ***`mingw32-make`***(for windows) / ***`make`***(for linux/ios).
         3. An executabe file called ***predicta.exe*** / ***predicta.o*** would be formed.
@@ -58,7 +68,8 @@ cd PredictaExpense
         5. The application will open for user interaction.
         ---
 
-    * ### g++(*Manual way / for beginners*)     
+    * **g++**(*Manual way / for beginners*) 
+
         1. Open the terminal in the **Predicta** folder.
         2. Run
         ```bash
@@ -68,12 +79,14 @@ cd PredictaExpense
         4. Run the command ***`predicta.exe`***(windows) or ***`./predicta`***(linux/ios) in the terminal. (same as Makefile step-d).
         5. The application will open for user interaction.
 
-## Flowchart⚛️
-### [Predicta **FLOW**](output_img/Flowchart_1.png)
+## Flowchart
+[Predicta **FLOW**](output_img/Flowchart_1.png)
 
- ## Sample Outputs🖼️
- *(Note: The Output screenshots are based on sample data like BUDGET=12000, Expense for the day 1=450.*    
- *The Weekly log report is generated when the day=7 i.e the log counter sets to 7. Later the log counter resets to 0 for the next week logging.)*
+## Sample Outputs      
+>[!NOTE]         
+> The Output screenshots are based on sample data like BUDGET=12000, Expense for the day 1=450.   
+> The Weekly log report is generated when the day=7 i.e the log counter sets to 7. Later the log counter resets to 0 for the next week logging.
+
 * [Menu BAR](output_img/menu_img.png)    
 * [User BUDGET](output_img/Budget.png)
 * [Add EXPENSE](output_img/Expense_log.png)
@@ -83,34 +96,10 @@ cd PredictaExpense
 * [Insights AND Strategies](output_img/insights_3.png)
 * [EXIT](output_img/exit.png)
  
- 
- ## Future upgrades 🛰️🛰️
- * Date and time stamps for each session of expense logging.
- * More insights like MAX and MIN expense item display.
- * Tailored strategies based on user interests and needs.
- * CLI animation(ncurses or ASCII effects)
- * Flexible budget modification.
- * More user-friendly UI and UX.
- 
- ## README add-ons ➕   
-- [x] Sample screenshots for i/o
-- [x] Predicta Expense cpp Flowchart
-- [x] Contribution Guildelines
-- [ ] **Backend development**(shelved for now)
-- [ ] Coming soon!
- 
- ## Value this repo ? ✨
+
+## Value this repo ?
 *  If this repository added value to your learning or dev flow ,consider dropping a ⭐or hitting ***fork***.  
 * Open for recieving feedback and knowledge exchange.
  
- ## Contributing Guidelines 📃  
- Please read and follow our [Contibuting Guidelines](CONTRIBUTING.md)
-
- ### Author     
+### Author     
  ***tecnolgd***
-
- 
-
-
-
-
